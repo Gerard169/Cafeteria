@@ -10,19 +10,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 
 <body>
     <header>
-        <section class="container-fluid py-4">
+        <section class="container-fluid mt-3 mb-8">
             <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a href="/"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32" aria-hidden="true">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg> <span class="fs-4">Cafeteria Aroma</span> </a>
+                    <i class="bi bi-cup-hot fs-2 mb-2 me-2"></i>
+                    <span class="fs-4">Cafeteria Aroma</span> </a>
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
@@ -68,14 +68,13 @@
                 </div>
             </div>
             <div class="action-panel">
-                <h2>Bienvendos</h2>
+                <h2>Bienvenidos</h2>
                 <p>Soy una persona con una sólida base en desarrollo de software, bases de datos y tecnologías web.</p>
             </div>
         </section>
 
-        <section class="container-fluid">
-            <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4"
-                    src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <section class="container-fluid mt-3 mb-8">
+            <div class="px-4 py-5 my-5 text-center">
                 <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
                 <div class="col-lg-6 mx-auto">
                     <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
@@ -88,7 +87,7 @@
             </div>
         </section>
 
-        <section class="container-fluid">
+        <section class="container-fluid mt-3 mb-8">
             <div class="row align-items-center">
                 <div class="col-md-7">
                     <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
@@ -102,28 +101,32 @@
                             <picture>
                                 <source srcset="https://picsum.photos/id/63/300/300" media="(min-width:1025px)">
                                 <source srcset="https://picsum.photos/id/63/200/200" media="(min-width:1025px)">
-                                <img src="https://picsum.photos/id/63/120/120" class="img-fluid rounded" alt="producto 1">
+                                <img src="https://picsum.photos/id/63/120/120" class="img-fluid rounded"
+                                    alt="producto 1">
                             </picture>
                         </div>
                         <div class="col-6">
                             <picture>
                                 <source srcset="https://picsum.photos/id/1060/300/300" media="(min-width:1025px)">
                                 <source srcset="https://picsum.photos/id/1060/200/200" media="(min-width:1025px)">
-                                <img src="https://picsum.photos/id/1060/120/120" class="img-fluid rounded" alt="producto 2">
+                                <img src="https://picsum.photos/id/1060/120/120" class="img-fluid rounded"
+                                    alt="producto 2">
                             </picture>
                         </div>
                         <div class="col-6">
                             <picture>
                                 <source srcset="https://picsum.photos/id/431/300/300" media="(min-width:1025px)">
                                 <source srcset="https://picsum.photos/id/431/200/200" media="(min-width:1025px)">
-                                <img src="https://picsum.photos/id/431/120/120" class="img-fluid rounded" alt="producto 3">
+                                <img src="https://picsum.photos/id/431/120/120" class="img-fluid rounded"
+                                    alt="producto 3">
                             </picture>
                         </div>
                         <div class="col-6">
                             <picture>
                                 <source srcset="https://picsum.photos/id/225/300/300" media="(min-width:1025px)">
                                 <source srcset="https://picsum.photos/id/225/200/200" media="(min-width:1025px)">
-                                <img src="https://picsum.photos/id/255/120/120" class="img-fluid rounded" alt="producto 4">
+                                <img src="https://picsum.photos/id/255/120/120" class="img-fluid rounded"
+                                    alt="producto 4">
                             </picture>
                         </div>
                     </div>
@@ -131,7 +134,7 @@
             </div>
         </section>
 
-        <section class="container-fluid">
+        <section class="container-fluid mt-3 mb-8">
             <div class="row align-items-center">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
@@ -140,21 +143,56 @@
                         how
                         this layout would work with some actual real-world content in place.</p>
                 </div>
-                <div class="col-md-5 order-md-1"> <svg aria-label="Placeholder: 500x500"
-                        class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" height="500"
-                        preserveAspectRatio="xMidYMid slice" role="img" width="500" xmlns="http://www.w3.org/2000/svg">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%"
-                            fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-                    </svg> </div>
+                <div class="col-md-5 order-md-1">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <picture>
+                                <source srcset="https://picsum.photos/id/63/300/300" media="(min-width:1025px)">
+                                <source srcset="https://picsum.photos/id/63/200/200" media="(min-width:1025px)">
+                                <img src="https://picsum.photos/id/63/120/120" class="img-fluid rounded"
+                                    alt="producto 1">
+                            </picture>
+                        </div>
+                        <div class="col-6">
+                            <picture>
+                                <source srcset="https://picsum.photos/id/1060/300/300" media="(min-width:1025px)">
+                                <source srcset="https://picsum.photos/id/1060/200/200" media="(min-width:1025px)">
+                                <img src="https://picsum.photos/id/1060/120/120" class="img-fluid rounded"
+                                    alt="producto 2">
+                            </picture>
+                        </div>
+                        <div class="col-6">
+                            <picture>
+                                <source srcset="https://picsum.photos/id/431/300/300" media="(min-width:1025px)">
+                                <source srcset="https://picsum.photos/id/431/200/200" media="(min-width:1025px)">
+                                <img src="https://picsum.photos/id/431/120/120" class="img-fluid rounded"
+                                    alt="producto 3">
+                            </picture>
+                        </div>
+                        <div class="col-6">
+                            <picture>
+                                <source srcset="https://picsum.photos/id/225/300/300" media="(min-width:1025px)">
+                                <source srcset="https://picsum.photos/id/225/200/200" media="(min-width:1025px)">
+                                <img src="https://picsum.photos/id/255/120/120" class="img-fluid rounded"
+                                    alt="producto 4">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section class="container-fluid mt-3 mb-8">
             <div class="row justify-content-center p-3">
+                <div class="col-12 text-center">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        BEBIDAS CALIENTES
+                    </h2>
+                </div>
                 <div class="col col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/id/23/304/150" class="card-img-top" alt="producto_uno" />
+
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -165,7 +203,8 @@
                 </div>
                 <div class="col col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/id/15/304/200" class="card-img-top" alt="producto_dos" />
+
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -178,7 +217,7 @@
             <div class="row justify-content-center p-3">
                 <div class="col col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/id/78/304/200" class="card-img-top" alt="productos_tres" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -189,7 +228,7 @@
                 </div>
                 <div class="col col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/id/79/304/200" class="card-img-top" alt="productos_cuatro" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -200,7 +239,147 @@
                 </div>
                 <div class="col col-sm-6 col-md-4 col-lg-3">
                     <div class="card h-100">
-                        <img src="..." class="card-img-top" alt="...">
+                        <img src="https://picsum.photos/id/100/304/200" class="card-img-top" alt="productos_cuatro" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid mt-3 mb-8">
+            <div class="row justify-content-center p-3">
+                <div class="col-12 text-center">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        BEBIDAS FRIAS
+                    </h2>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/23/304/150" class="card-img-top" alt="producto_uno" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/15/304/200" class="card-img-top" alt="producto_dos" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center p-3">
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/78/304/200" class="card-img-top" alt="productos_tres" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/79/304/200" class="card-img-top" alt="productos_cuatro" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/100/304/200" class="card-img-top" alt="productos_cuatro" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container-fluid mt-3 mb-8">
+            <div class="row justify-content-center p-3">
+                <div class="col-12 text-center">
+                    <h2 class="featurette-heading fw-normal lh-1">
+                        DONAS
+                    </h2>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/23/304/150" class="card-img-top" alt="producto_uno" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/15/304/200" class="card-img-top" alt="producto_dos" />
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center p-3">
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/78/304/200" class="card-img-top" alt="productos_tres" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/79/304/200" class="card-img-top" alt="productos_cuatro" />
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card’s content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-md-4 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://picsum.photos/id/100/304/200" class="card-img-top" alt="productos_cuatro" />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the
@@ -217,20 +396,19 @@
             <div class="row">
                 <div class="col">
                     <picture>
-                        <source srcset="https://picsum.photos/id/200/800/800" media="(min-width:1025px)">
-                        <source srcset="https://picsum.photos/id/200/480/480" media="(min-width:1025px)">
-                        <img src="https://picsum.photos/id/200/380/380" alt="half img 1"
+                        <source srcset="https://picsum.photos/id/1060/800/800" media="(min-width:1025px)">
+                        <source srcset="https://picsum.photos/id/1060/480/480" media="(min-width:1025px)">
+                        <img src="https://picsum.photos/id/1060/380/380" alt="half img 1"
                             class="object-fit-cover w-100 h-100">
                     </picture>
                 </div>
                 <div class="col flex-grow-l">
                     <div class="d-flex flex-column justify-content-center w-100 h-100 p-3">
-                        <h2>Contactanos</h2>
+                        <h2>Registrese</h2>
                         <div class="mb-3 row">
-                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <label for="Email" class="col-sm-2 col-form-label">Email</label>
                             <div class="col-sm-10">
-                                <input type="text" readonly class="form-control-plaintext" id="staticEmail"
-                                    value="name@example.com">
+                                <input type="text" class="form-control" id="Email" placeholder="name@example.com">
                             </div>
                         </div>
                         <div class="mb-3 row">
@@ -258,6 +436,9 @@
                                     <label class="form-check-label" for="inlineCheckbox3">Opcion 3 (disabled)</label>
                                 </div>
                             </div>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button class="btn btn-primary me-md-2 btn-lg" type="button">Button</button>
                         </div>
                     </div>
                 </div>
