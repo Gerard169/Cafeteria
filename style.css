@@ -44,3 +44,81 @@ main .carrucel .action-panel {
     height: 100%;
     object-fit: cover;
 }
+
+header,
+footer {
+    background-color: #ff4d88; /* rosado */
+    color: white;
+}
+
+header a,
+footer a,
+header span,
+footer p,
+footer li,
+footer i {
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #ff4d88;
+    border-color: #ff4d88;
+}
+
+.btn-primary:hover {
+    background-color: #e63e78;
+    border-color: #e63e78;
+}
+
+/* botón registrarse (outline secondary) */
+
+.btn-outline-light:hover {
+    background-color: #ff4d88;
+    border-color: #ff4d88;
+    color: white;
+}
+
+.hero-central {
+    background-image: url("https://picsum.photos/id/500/1600/900");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.hero-central::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 0;
+}
+
+.hero-central * {
+    position: relative;
+    z-index: 1;
+    color: white !important;
+}
+
+.bebidas-calientes {
+    background-color: #ffe6f2;
+}
+
+/* Bebidas frías */
+.bebidas-frias {
+    background-color: #eae6ff;
+}
+
+/* Donas */
+.donas {
+    background-color: #fff3e6;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+h1, h2, h3, h5 {
+    font-weight: 600;
+}
